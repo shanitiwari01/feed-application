@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, FlatList, View, Text, TouchableOpacity, Dimensions, Platform, Image, RefreshControl, Linking } from 'react-native';
 
 import Headerbar from "../components/Headerbar";
-import { AppStatusBar } from '../components/AppStatusBar';
 import { Loader } from "../core/functions";
 import { base_url } from "../core/constant";
 import { Avatar, Button, Card, TextInput, Paragraph } from 'react-native-paper';
